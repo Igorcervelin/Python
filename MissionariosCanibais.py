@@ -69,8 +69,7 @@ class Estado():
 #Gera arvore de estados.
 class Operacao():
     def __init__(atual):
-        #Insere a raiz indefinida na fila, apenas estado inicial,  insere a raiz na 
-        #Insere a raiz na fila de execução, que será utilizada para fazer uma busca em largura
+    #insere raiz
         atual.selecionado = [Estado(3, 0, 3, 0, 'direita')]
         atual.solucao = None
 
